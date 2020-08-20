@@ -1,0 +1,184 @@
+/* boilerplate style */
+html {
+  font-size: 62.5%; /*Standard is 16px - this makes it 10px */
+}
+
+html body {
+  font-size: 1.6rem; /*Makes it 16px*/
+  color: ;
+  font-family: 'Ubuntu';
+}
+
+body,
+html {
+  height: 100%;
+}
+
+main {
+  font-size: 3rem;
+}
+
+.bg {
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+a,
+a:hover,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+a {
+  color: #c4b998;
+}
+
+.hover:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+.hover:active {
+  opacity: 1;
+}
+
+
+
+/* Social bar */
+.social {
+  background: none !important;
+  border-radius: 1rem;
+}
+
+.social a{
+  color: white;
+}
+
+.fab {
+  font-size: 5.5rem;
+  color: black;
+}
+
+/* TITLE */
+.title {
+  /*background-image: url("./pics/bar2.jpg");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px; */
+  background: url("./pics/bar2.jpg") no-repeat center fixed;
+  background-size: cover;
+  height: 250px;
+  color: white;
+}
+
+.title-text {
+}
+
+.title-maintext {
+  font-size: 6rem;
+  font-weight: bolder;
+}
+
+.title-subtext {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+/* food & drinks menu */
+.food-col1 {
+  font-size: 5rem;
+  background-image: url("./pics/foodtext.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.drinks-col2 {
+font-size: 5rem;
+background-image: url("./pics/beer.jpg");
+background-size: cover;
+background-position: center;
+color: white;
+border-radius: 10px;
+}
+
+/* buttons */
+.btn-lg {
+  font-size: 3rem; /* for buttons of lunch/dinner/beer/cocktails wanted a set size */
+  background-color: black;
+  border-color: black !important;
+  border-radius: 10px;
+  /*change width of button here - make sure to change size when webpage scales - viewport */
+}
+
+.btn-lg:hover {
+  background-color: sienna;
+}
+
+.submit {
+  font-size: 2.4rem; /*changes size of submit button */
+}
+
+/* modal menus */
+
+.modal-content {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
+  background-color: sienna;
+  color: black;
+}
+
+.modal {
+  font-size: 1.8rem;
+}
+
+.modal-content img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+}
+
+.modal-title {
+  font-size: 3.6rem !important;
+  font-weight: bold;
+  color: black;
+}
+
+.my-auto { /* Apparently helps when align-middle doesn't work -- confirmed to help */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+
+.black {
+  background-color: black;
+}
+
+/* contact */
+.contact-txt {
+  font-size: 2rem;
+}
+
+.contact-form {
+  font-size: 2rem;
+}
+
+.form-control {
+  font-size: 1.5rem !important;
+}
+
+.form-group {
+  width: 100%;
+}
