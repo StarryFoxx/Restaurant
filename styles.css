@@ -74,6 +74,7 @@ a {
   background: url("./pics/bar2.jpg") no-repeat center fixed;
   background-size: cover;
   height: 250px;
+  max-width: 100%;
   color: white;
 }
 
@@ -139,6 +140,13 @@ border-radius: 10px;
 
 .modal {
   font-size: 1.8rem;
+}
+
+.close {
+  position: absolute;
+  top: 1%;
+  right: 10%;
+  font-size: 5rem;
 }
 
 .modal-content img{
